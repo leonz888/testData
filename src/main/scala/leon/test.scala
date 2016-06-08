@@ -76,7 +76,7 @@ object test {
   }
   
   def generateTemperature(temperature_Upper:Float,temperature_Lower:Float, hour:Int):Float={
-    val temperature = ((new util.Random).nextFloat * (temperature_Upper - temperature_Lower)/2 * math.sin((2*math.Pi/24*(hour-2))) + (temperature_Upper + temperature_Lower)/2 )
+    val temperature = ((new util.Random).nextFloat * (temperature_Upper - temperature_Lower)/2 * math.sin((2*math.Pi/24*(hour-8))) + (temperature_Upper + temperature_Lower)/2 )
     
     temperature.toFloat
 }
