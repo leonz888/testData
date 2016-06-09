@@ -1,5 +1,5 @@
-Welcome to the "Smart Weather" test data generation project
-This project is a practice for simulating the weather changes in major cities around Australia. The code can be used for generating the test data for a weather forecast program.
+#Welcome to the "Smart Weather" test data generation project|
+##This project is a practice for simulating the weather changes in major cities around Australia. The code can be used for generating the test data for a weather forecast program.|
 
 
 Prerequisites:
